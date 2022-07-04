@@ -1,12 +1,16 @@
 # getting-started-with-bazel
 Some example with bazel
 
+## Build
+```bash
+bazel build //...
+```
+
 ## Links
 * [rules_docker](https://github.com/bazelbuild/rules_docker)
 * [rules_docker documentation](https://docs.aspect.build/bazelbuild/rules_docker/454981e65fa100d37b19210ee85fedb2f7af9626/readme)
 * [examples](https://github.com/bazelbuild/rules_docker/tree/master/testing/examples)
 * [custom base](https://github.com/bazelbuild/rules_docker#go_image-custom-base)
-
 
 ## Three Types of rules
 * [Basic Rules](https://github.com/bazelbuild/rules_docker#basic-rules). This repository contains a set of rules for pulling down base images, augmenting them with build artifacts and assets, and publishing those images. These rules do not require / use Docker for pulling, building, or pushing images.

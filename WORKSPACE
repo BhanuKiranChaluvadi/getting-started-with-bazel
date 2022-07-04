@@ -33,7 +33,8 @@ container_pull(
 	name = "python3-debian11",
 	registry = "gcr.io",
 	repository = "distroless/python3-debian11",
-	digest = "sha256:acdc2936c01fe4db3f3b9c6fd23fc24132f1e6fda0ce5504ed07a97c2371efab",
+	digest = "sha256:89dbc1d37ecf23622c3c795a4e50035e7c550084291f789003da890653d19c25",
+#	digest = "sha256:acdc2936c01fe4db3f3b9c6fd23fc24132f1e6fda0ce5504ed07a97c2371efab",
 	tag = "latest",
 )
 

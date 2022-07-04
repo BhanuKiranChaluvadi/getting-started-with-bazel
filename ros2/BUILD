@@ -13,17 +13,6 @@ download_pkgs(
     ],
 )
 
-'''
-download_pkgs(
-    name = "ros2_humble_pkgs",
-    image_tar = "@python3-debian11//image",
-    packages = [
-        "libpython3.9",
-        "libtinyxml2-8",
-        "libfmt7",
-    ],
-)
-
 install_pkgs(
     name = "ros2_pkgs_image",
     image_tar = "@python3-debian11//image",
@@ -31,4 +20,5 @@ install_pkgs(
     installation_cleanup_commands = "rm -rf /var/lib/apt/lists/*",
     output_image_name = "java_python_pkgs_image",
 )
+'''
 '''
