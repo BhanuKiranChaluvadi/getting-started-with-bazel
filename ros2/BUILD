@@ -18,7 +18,5 @@ install_pkgs(
     image_tar = "@python3-debian11//image",
     installables_tar = ":ros2_humble_pkgs.tar",
     installation_cleanup_commands = "rm -rf /var/lib/apt/lists/*",
-    output_image_name = "java_python_pkgs_image",
+    output_image_name = "distroless/ros2-debian11",
 )
-'''
-'''
